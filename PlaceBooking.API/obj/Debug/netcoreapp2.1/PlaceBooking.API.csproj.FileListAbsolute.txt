@@ -1,0 +1,14 @@
+D:\Projects\Place-Booking\PlaceBooking.API\bin\Debug\netcoreapp2.1\PlaceBooking.API.deps.json
+D:\Projects\Place-Booking\PlaceBooking.API\bin\Debug\netcoreapp2.1\PlaceBooking.API.runtimeconfig.json
+D:\Projects\Place-Booking\PlaceBooking.API\bin\Debug\netcoreapp2.1\PlaceBooking.API.runtimeconfig.dev.json
+D:\Projects\Place-Booking\PlaceBooking.API\bin\Debug\netcoreapp2.1\PlaceBooking.API.dll
+D:\Projects\Place-Booking\PlaceBooking.API\bin\Debug\netcoreapp2.1\PlaceBooking.API.pdb
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.csprojAssemblyReference.cache
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.csproj.CoreCompileInputs.cache
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.RazorAssemblyInfo.cache
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.RazorAssemblyInfo.cs
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.AssemblyInfoInputs.cache
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.AssemblyInfo.cs
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.RazorTargetAssemblyInfo.cache
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.dll
+D:\Projects\Place-Booking\PlaceBooking.API\obj\Debug\netcoreapp2.1\PlaceBooking.API.pdb

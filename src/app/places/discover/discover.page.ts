@@ -11,9 +11,9 @@ import { AuthService } from "src/app/auth/auth.service";
   styleUrls: ["./discover.page.scss"]
 })
 export class DiscoverPage implements OnInit, OnDestroy {
-  loadedPlaces: Place[];
-  allPlaces: Place[];
-  releventPlaces: Place[];
+  loadedPlaces: Place[] = [];
+  allPlaces: Place[] = [];
+  releventPlaces: Place[] = [];
 
   private placeSub: Subscription;
 

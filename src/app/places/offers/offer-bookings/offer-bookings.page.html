@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar *ngIf="place">
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/places/tabs/offers"></ion-back-button>
     </ion-buttons>
@@ -7,6 +7,6 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content *ngIf="place">
   <ion-button margin color="primary" [routerLink]="['/places/tabs/offers/edit',place.id]">Edit</ion-button>
 </ion-content>

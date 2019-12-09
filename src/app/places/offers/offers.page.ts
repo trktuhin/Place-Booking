@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./offers.page.scss'],
 })
 export class OffersPage implements OnInit,OnDestroy {
-  loadedPlaces:Place[];
+  loadedPlaces:Place[]=[];
   private placeSub:Subscription;
   constructor(private placeService:PlacesService,private router:Router) { }
 

@@ -8,7 +8,7 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-<ion-content text-cente padding>
+<ion-content text-cente paddin>
   <form #f="ngForm" (ngSubmit)="onBook()">
     <ion-grid>
       <ion-row>
@@ -44,8 +44,8 @@
           <ion-item>
             <ion-label position="floating">From</ion-label>
             <ion-datetime
-              [min]="selectedPlace.availabeFrom.toISOString()"
-              [max]="selectedPlace.availableTo.toISOString()"
+              [min]="availableFrom.toISOString()"
+              [max]="availableTo.toISOString()"
               [ngModel]="startDate"
               name="date-from"
               required
@@ -58,7 +58,7 @@
             <ion-label position="floating">To</ion-label>
             <ion-datetime
               [min]="startDateCtrl.value"
-              [max]="selectedPlace.availableTo.toISOString()"
+              [max]="availableTo.toISOString()"
               [ngModel]="endDate"
               name="date-to"
               required
