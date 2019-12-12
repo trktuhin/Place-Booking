@@ -21,7 +21,6 @@ namespace PlaceBooking.API.Data
         {
             if (!_userManager.Users.Any())
             {
-
                 var roles = new List<IdentityRole>
                 {
                     new IdentityRole{Name = "Member"},

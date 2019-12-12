@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -65,7 +66,9 @@ namespace PlaceBooking.API
                 opt.SerializerSettings.ReferenceLoopHandling=Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             });
             services.AddCors();
+            services.AddAutoMapper();
             services.AddTransient<Seed>();
+            services.AddScoped<IPlaceBookingRepo,PlaceBookingRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
